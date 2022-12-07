@@ -19,13 +19,13 @@ const CollapsibleNav = () => {
         alt="Flowbite Logo"
       /> */}
       <span className="self-center whitespace-nowrap text-xl font-semibold  text-footerblue hover:no-underline">
-      <NavLink to='/' className='lg:ml-16 lg:text-2xl hover:no-underline text-footerblue hover:text-footerblue font-bold'>
+      <NavLink to='/' className='lg:ml-12 lg:mr-96 lg:text-2xl hover:no-underline text-footerblue hover:text-footerblue font-bold'>
         IPDIMS
       </NavLink>
       </span>
     </NavLink>
-    <div className="flex md:order-2  md:mr-2 lg:mr-24 ">
-    <div className="">
+    <div className="flex md:order-2  md:mr-2 lg:ml-16 ">
+    {/* <div className=""
       <Dropdown
         arrowIcon={false}
         inline={true}
@@ -54,7 +54,7 @@ const CollapsibleNav = () => {
           Sign out
         </Dropdown.Item>
       </Dropdown>
-      </div>
+      </div> */}
       <Navbar.Toggle />
     </div>
     <Navbar.Collapse>
@@ -108,6 +108,10 @@ const CollapsibleNav = () => {
       >
         Brochure
       </a>
+      <NavLink to='/#footer' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
+        Contact Us
+
+      </NavLink>
       {/* </Navbar.Link> */}
     </Navbar.Collapse>
   </Navbar></div>

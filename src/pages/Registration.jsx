@@ -8,7 +8,7 @@ import FormComponent from '../Components/FormComponent'
 const Registration = () => {
   return (
     <div>
-      <div className="sticky top-0 z-50 shadow-lg drop-shadow-lg">
+      <div className="sticky top-0 z-50 shadow drop-shadow-lg">
             <CollapsibleNav/>
         </div>
         

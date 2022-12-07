@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card } from 'flowbite-react'
+import { NavLink } from 'react-router-dom'
 const Track1 = () => {
   return (
     <div>
@@ -168,6 +169,10 @@ const Track1 = () => {
       type="button"
       className="inline-flex w-full justify-center rounded-lg outline-black ring-1 ring-footerblue  px-5 py-2.5 text-center text-sm font-medium text-black hover:bg-footerblue hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900"
     >
+    <NavLink to='/#tracks' >
+          
+        </NavLink>
+    
       Select Track
     </button>
   </Card>

@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Guidelines from './pages/Guidelines';
 import Registration from './pages/Registration';
 import Submission from './pages/Submission';
+import Committee from './pages/Committee'
 
 function App() {
   return (
@@ -17,8 +18,7 @@ function App() {
           <Route path='/guidelines' element={<Guidelines/>} />
           <Route path='/registration' element={<Registration/>} />
           <Route path='/submission' element={<Submission/>} />
-          <Route path='/guidelines' element={<Guidelines/>} />
-
+          <Route path='/committee' element={<Committee/>} />
 
         </Routes>
       </BrowserRouter>

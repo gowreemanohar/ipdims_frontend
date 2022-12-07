@@ -6,7 +6,7 @@ import { Card } from 'flowbite-react'
 const Guidelines = () => {
   return (
     <div className='bg-bgblue'>
-        <div className="sticky top-0 z-50 shadow-lg drop-shadow-lg">
+        <div className="sticky top-0 z-50 shadow drop-shadow-sm">
             <CollapsibleNav/>
         </div>
         
@@ -194,12 +194,87 @@ const Guidelines = () => {
         </span>
       </li>
     </ul>
+   
+    </span>
+  </Card>
+  <Card className='lg:mx-48 sm:mx-2 drop-shadow-xl  rounded-xl my-16 bg-footerblue lg:p-10'>
+  <span className=''>
+    <h5 className="drop-shadow-xl mb-4 text-3xl font-semibold text-footerblue dark:text-gray-400 self-center">
+    Policy on Plagiarism
+    </h5>
+    
+    <ul
+      role="list"
+      className="my-7 space-y-5 p-4"
+    >
+      <li className="flex space-x-3">
+        <svg
+          className="h-5 w-3 shrink-0 text-black-600 dark:text-blue-500"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            // fillRule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+            // clipRule="evenodd"
+            className='text:black-600'
+          />
+        </svg>
+        <span className="drop-shadow-xl text-lg  font-semibold leading-tight text-gray-500 dark:text-gray-400">
+        Authors are requested to kindly refrain from plagiarism in any form. Authors should submit their original and unpublished research work not under consideration for publication everywhere.
+        </span>
+      </li>
+      <li className="flex space-x-3">
+        <svg
+          className="h-5 w-3 shrink-0 text-black-600 dark:text-blue-500"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            // fillRule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+            // clipRule="evenodd"
+            className='text:black-600'
+          />
+        </svg>
+        <span className="drop-shadow-xl text-lg font-semibold leading-tight text-gray-500 dark:text-gray-400">
+        Manuscript found to be plagiarised during any stage of review shall be rejected.
+        </span>
+      </li>
+      <li className="flex space-x-3">
+        <svg
+          className="h-5 w-3 shrink-0 text-black-600 dark:text-blue-500"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            // fillRule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+            // clipRule="evenodd"
+            className='text:black-600'
+          />
+        </svg>
+        <span className="drop-shadow-xl text-lg font-semibold leading-tight text-gray-500 dark:text-gray-400">
+        As per the copyright transfer agreement, authors are deemed to be individually or collectively responsible for the content of the manuscript published by them.
+        </span>
+      </li>
+      
+    </ul>
+    <a href='https://easychair.org/conferences/?conf=ipdims2022'>
     <button
       type="button"
-      className="md:ml-64 ml-24 lg:ml-96  inline-flex w-auto justify-center rounded-lg bg-footerblue px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900"
+      to='https://easychair.org/conferences/?conf=ipdims2022'
+      href='https://easychair.org/conferences/?conf=ipdims2022'
+      className="lg:ml-96 inline-flex justify-center rounded-lg outline-footerblue  ring-2 ring-footerblue  px-5 py-2.5 text-center text-sm font-medium text-black hover:bg-footerblue hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900"
     >
-     Submit Paper
+    Submit Paper
+
+      
     </button>
+    </a>
     </span>
   </Card>
 </div>

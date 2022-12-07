@@ -9,17 +9,17 @@ const FooterMain = () => {
       <div>
         <Footer.Title title="Venue" className='text-white' />
         <Footer.LinkGroup col={true}>
-        <Footer.Link href="#" className='text-white'>
+        <Footer.Link className='text-white'>
             Industrial Design Department,
           </Footer.Link>
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
             National Institute Of Technology, Rourkela
           </Footer.Link>
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
             Pin code: 769008
           </Footer.Link>
           
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
             Rourkela , Odisha
           </Footer.Link>
         </Footer.LinkGroup>
@@ -27,10 +27,10 @@ const FooterMain = () => {
       <div>
         <Footer.Title title="Contact Us " className='text-white' />
         <Footer.LinkGroup col={true}>
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
           Phone: 0661 246 2855/2514
           </Footer.Link>
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
           Email: icipdims@gmail.com
           </Footer.Link>
           {/* <Footer.Link href="#" className='text-white'>
@@ -47,13 +47,13 @@ const FooterMain = () => {
           {/* <Footer.Link href="#" className='text-white'>
           Program Convenor
           </Footer.Link> */}
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
           Prof. BBVL Deepak
           </Footer.Link>
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
           Department of Mechanical Engineering
           </Footer.Link>
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
           National Institute of Technology, Rourkela
           </Footer.Link>
         </Footer.LinkGroup>
@@ -64,13 +64,13 @@ const FooterMain = () => {
           {/* <Footer.Link href="#" className='text-white'>
           Program Convenor
           </Footer.Link> */}
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
           Prof. D.R.K Parhi
           </Footer.Link>
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
           Department of Mechanical Engineering
           </Footer.Link>
-          <Footer.Link href="#" className='text-white'>
+          <Footer.Link  className='text-white'>
           National Institute of Technology, Rourkela
           </Footer.Link>
         </Footer.LinkGroup>

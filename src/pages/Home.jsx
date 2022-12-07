@@ -15,7 +15,7 @@ import FooterMain from '../Components/FooterMain'
 const Home = () => {
   return (
     <div className=" bg-bgblue ">
-      <div className="sticky top-0 z-50 shadow-lg drop-shadow-lg">
+      <div className="sticky top-0 z-50 shadow drop-shadow-sm">
         <CollapsibleNav/>
         
       </div>
@@ -51,7 +51,7 @@ const Home = () => {
               <Track3/>
             </div>
           </div>
-          <div className="mt-16 mx-2">
+          <div id='footer' className="mt-16 mx-2">
             <FooterMain/>
           </div>
 

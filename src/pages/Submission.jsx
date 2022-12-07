@@ -4,7 +4,7 @@ import FooterMain from '../Components/FooterMain'
 const Submission = () => {
   return (
     <div>
-      <div className="sticky top-0 z-50 shadow-lg drop-shadow-lg">
+      <div className="sticky top-0 z-50 shadow drop-shadow-sm">
             <CollapsibleNav/>
         </div>
         <div className="mt-16 mx-2">
