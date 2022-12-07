@@ -88,6 +88,10 @@ const CollapsibleNav = () => {
         Submission
 
       </NavLink> */}
+      <NavLink to='/#tracks' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
+        Tracks
+
+      </NavLink>
       <a
         href="https://easychair.org/conferences/?conf=ipdims2022"
         // active={true}
@@ -95,10 +99,8 @@ const CollapsibleNav = () => {
       >
         Submission
       </a>
-      {/* </Navbar.Link> */}
-      {/* <Navbar.Link href=''  > */}
-      <NavLink to='/#tracks' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
-        Tracks
+      <NavLink to='/committee' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
+        Committee
 
       </NavLink>
       <a
@@ -108,10 +110,15 @@ const CollapsibleNav = () => {
       >
         Brochure
       </a>
+      
+      {/* </Navbar.Link> */}
+      {/* <Navbar.Link href=''  > */}
+      
       <NavLink to='/#footer' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
         Contact Us
 
       </NavLink>
+      
       {/* </Navbar.Link> */}
     </Navbar.Collapse>
   </Navbar></div>
