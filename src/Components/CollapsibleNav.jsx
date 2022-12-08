@@ -113,7 +113,7 @@ const CollapsibleNav = () => {
       
       {/* </Navbar.Link> */}
       {/* <Navbar.Link href=''  > */}
-      <a href='#footer' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
+      <a href='/#footer' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
 
         Contact Us
 </a>
