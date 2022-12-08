@@ -165,7 +165,7 @@ const FormComponent = () => {
 {/* <Button type="submit" className='rounded-lg lg:mx-auto text-black bg-white '>Submit</Button> */}
 <span className="ml-48">
 <button
-      type="button"
+      type="submit"
       className="lg:ml-96 inline-flex justify-center rounded-lg outline-footerblue  ring-2 ring-footerblue  px-5 py-2.5 text-center text-sm font-medium text-black hover:bg-footerblue hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900"
     >
       Select Track

@@ -15,6 +15,8 @@ function App() {
         {/* Routes Handling */}
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/#tracks' element={<Home/>} />
+
           <Route path='/guidelines' element={<Guidelines/>} />
           <Route path='/registration' element={<Registration/>} />
           <Route path='/submission' element={<Submission/>} />

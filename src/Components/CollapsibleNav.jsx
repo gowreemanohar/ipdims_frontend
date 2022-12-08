@@ -3,7 +3,7 @@ import React from 'react'
 // import { Flowbite } from 'flowbite-react'
 // import { Flowbite } from 'flowbite-react'
 import {Navbar,Dropdown,Avatar} from "flowbite-react"
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 const CollapsibleNav = () => {
   return (
@@ -12,14 +12,14 @@ const CollapsibleNav = () => {
     className='bg-blue-500'
   >
   
-    <NavLink to="/">
+    <NavLink to="/" className='hover:no-underline '>
       {/* <img
         src="https://flowbite.com/docs/images/logo.svg"
         className="lg:ml-3 h-6 sm:h-9"
         alt="Flowbite Logo"
       /> */}
       <span className="self-center whitespace-nowrap text-xl font-semibold  text-footerblue hover:no-underline">
-      <NavLink to='/' className='lg:ml-12 lg:mr-96 lg:text-2xl hover:no-underline text-footerblue hover:text-footerblue font-bold'>
+      <NavLink to='/'  className='lg:ml-12 lg:mr-96 lg:text-2xl hover:no-underline text-footerblue hover:text-footerblue font-bold '>
         IPDIMS
       </NavLink>
       </span>
@@ -88,10 +88,10 @@ const CollapsibleNav = () => {
         Submission
 
       </NavLink> */}
-      <NavLink to='/#tracks' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
-        Tracks
+      <a href='/#tracks' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
+          Tracks
 
-      </NavLink>
+      </a>
       <a
         href="https://easychair.org/conferences/?conf=ipdims2022"
         // active={true}
@@ -113,11 +113,10 @@ const CollapsibleNav = () => {
       
       {/* </Navbar.Link> */}
       {/* <Navbar.Link href=''  > */}
-      
-      <NavLink to='/#footer' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
-        Contact Us
+      <a href='#footer' className='lg:text-lg hover:no-underline  text-footerblue hover:text-footerblue  '>
 
-      </NavLink>
+        Contact Us
+</a>
       
       {/* </Navbar.Link> */}
     </Navbar.Collapse>

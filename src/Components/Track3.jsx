@@ -162,12 +162,16 @@ const Track3 = () => {
   </li>
   
 </ul>
+  
+  <a href='/registration'>
+
 <button
   type="button"
-  className="inline-flex w-full justify-center rounded-lg outline-black ring-1 ring-footerblue  px-5 py-2.5 text-center text-sm font-medium text-black hover:bg-footerblue hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900"
+  className="inline-flex w-full justify-center rounded-lg outline-black ring-2 ring-footerblue  px-5 py-2.5 text-center text-sm font-medium text-black hover:bg-footerblue hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-900"
     >
       Select Track
 </button>
+</a>
 </Card>
 </div>
 </div>

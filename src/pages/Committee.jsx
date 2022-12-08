@@ -8,8 +8,8 @@ const Committee = () => {
         <div className="sticky top-0 z-50 shadow drop-shadow-sm">
             <CollapsibleNav/>
         </div>
-        <div className="mt-5 d-flex  ">
-          <Card className='w-1/2 mx-2'>
+        <div className="mt-5  lg:flex  ">
+          <Card className='lg:w-1/2 mx-2'>
             <h5 className="mb-4 text-3xl font-semibold text-footerblue dark:text-gray-400 self-center">
               Organizing Committee
             </h5>
@@ -22,7 +22,7 @@ const Committee = () => {
 
 
           </Card>
-          <Card className='w-1/2 mx-2 '>
+          <Card className='lg:w-1/2 mx-2 '>
           <h5 className="mb-4 text-3xl font-semibold text-footerblue dark:text-gray-400 self-center">
             Keynote Speakers 
             </h5>
@@ -44,8 +44,8 @@ const Committee = () => {
           <h5 className="mb-4 text-3xl font-semibold text-footerblue dark:text-gray-400 self-center">
           Technical Session Chairs
             </h5>
-            <div className="d-flex">
-            <div className="w-1/2 lg:ml-16 ">
+            <div className="lg:flex m-auto">
+            <div className="lg:w-1/2 lg:ml-16 ">
             {/* <div className=""> */}
 
             <p className='font-normal text-lg mb-2.5 '>S Murugan, <span className='font-light text-lg'>National Institute of Technology Rourkela</span> </p>
@@ -56,7 +56,7 @@ const Committee = () => {
             {/* </div> */}
             {/* <p className='font-normal text-lg mb-2.5'><span className='font-light text-lg'></span> </p> */}
             </div>
-            <div className="  w-1/2 lg:ml-48 ">
+            <div className="  lg:w-1/2 lg:ml-48 ">
             {/* <div className="mr-16"> */}
             <p className='font-normal text-lg mb-2.5 '>S Gopalkrishna, <span className='font-light text-lg'>National Institute of Technology Rourkela</span> </p>
             <p className='font-normal text-lg mb-2.5'>S Kar,  <span className='font-light text-lg'>National Institute of Technology Rourkela</span> </p>
@@ -76,8 +76,8 @@ const Committee = () => {
           <h5 className="mb-4 text-3xl font-semibold text-footerblue dark:text-gray-400 self-center">
           Technical Program committee 
             </h5>
-            <div className="d-flex">
-            <div className="w-1/3 ml-4">
+            <div className="lg:flex m-auto">
+            <div className="lg:w-1/3 lg:ml-4">
             <p className='font-normal text-lg mb-2.5'>Amarendra Kr. Das, <span className='font-light text-lg'> Indian Institute of Technology, Guwahati, India</span> </p>
             <p className='font-normal text-lg mb-2.5'>Dilip Kr. Pratihar,  <span className='font-light text-lg'>Indian Institute of Technology, Khargpur, India</span> </p>
             <p className='font-normal text-lg mb-2.5'>Debkumar Chakrabarti, <span className='font-light text-lg'> Indian Institute of Technology, Guwahati, India</span> </p>
@@ -95,14 +95,14 @@ const Committee = () => {
  
             {/* <p className='font-normal text-lg mb-2.5'><span className='font-light text-lg'></span> </p> */}
             </div>
-            <div className="  w-1/3 ml-4">
+            <div className="  lg:w-1/3 lg:ml-4">
             <p className='font-normal text-lg mb-2.5'>Aezeden Mohamed,  <span className='font-light text-lg'>UNITECH university, Papua New Guinea</span> </p>
             <p className='font-normal text-lg mb-2.5'>Sandip Ghosh, <span className='font-light text-lg'>Indian Institute of Technology (BHU), Varanasi</span> </p>
             <p className='font-normal text-lg mb-2.5'>Amitesh Kumar, <span className='font-light text-lg'>Indian Institute of Technology (BHU), Varanasi</span> </p>
-            <p className='font-normal text-lg mb-2.5'>P Ganga Mamba, <span className='font-light text-lg'>Indian Institute of Science Education and Research, Bhopal, India</span> </p>
+            <p className='font-normal text-lg mb-2.5'>P Ganga Mamba, <span className='font-light text-lg'>Indian Institute of Science Education and Research, Bhopal,<br/> India</span> </p>
             <p className='font-normal text-lg mb-2.5 '>Soumya Gangopadhyay, <span className='font-light text-lg'>Indian Institute of Technology, Bhilai</span> </p>
             <p className='font-normal text-lg mb-2.5'>S K Kashyap, <span className='font-light text-lg'>AcSIR, CSIR-CIMFR, India</span> </p>
-            <p className='font-normal text-lg mb-2.5'>P B Sujit, <span className='font-light text-lg'>Indian Institute of Science Education and Research, Bhopal, India</span> </p>
+            <p className='font-normal text-lg mb-2.5'>P B Sujit, <span className='font-light text-lg'>Indian Institute of Science Education and Research, Bhopal,<br/> India</span> </p>
             <p className='font-normal text-lg mb-2.5'>P K Mohonty, <span className='font-light text-lg'>National Institute of Technology, Arunachal Pradesh, India</span> </p>
             <p className='font-normal text-lg mb-2.5'>J C Mohanta <span className='font-light text-lg'>Malaviya National Institute of Technology, Allahabad, India</span> </p>
             <p className='font-normal text-lg mb-2.5 '>P K Jena, <span className='font-light text-lg'> Veer Surendra Sai University of Technology, Burla, India</span> </p>
@@ -112,7 +112,7 @@ const Committee = () => {
             {/* <p className='font-normal text-lg mb-2.5'><span className='font-light text-lg'></span> </p> */}
             </div>
 
-            <div className="  w-1/3 ml-4">
+            <div className="  lg:w-1/3 lg:ml-4">
             {/* <div className="mr-16"> */}
             <p className='font-normal text-lg mb-2.5'>S Kundu, <span className='font-light text-lg'>KIIT University, Bhubaneswar, India</span> </p>
 
